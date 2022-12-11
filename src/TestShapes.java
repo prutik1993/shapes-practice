@@ -1,4 +1,9 @@
+import javafx.scene.shape.Rectangle;
+import javafx.scene.shape.Shape;
+
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  *
@@ -9,6 +14,27 @@ import java.util.ArrayList;
 
 public class TestShapes {
     public static void main(String[] args) {
+
+        Circle circle = new Circle(4);
+        Rectangle rectangle = new Rectangle(5.5, 6);
+        Square square = new Square(2.5);
+
+        ArrayList<Shape> shapes = new ArrayList<>();
+        shapes.add(rectangle);
+        shapes.add(circle);
+        shapes.add(square);
+
+
+       for (Object s : shapes) {
+           System.out.println(s);
+           System.out.println("Area of the " + s.getClass().getSimpleName());   }
+
+
+
+
+
+
+
 
         /*
         This will be our actual program that we request some information from user to create 3 objects
