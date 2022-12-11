@@ -21,8 +21,8 @@ public class TestShapes {
 
         ArrayList<Shape> shapes = new ArrayList<>();
         shapes.add(rectangle);
-        shapes.add(circle);
-        shapes.add(square);
+        //shapes.add(circle);
+       // shapes.add(square);
 
 
        for (Object s : shapes) {
