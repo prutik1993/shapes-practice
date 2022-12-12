@@ -1,5 +1,10 @@
 import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.Shape;
+import javafx.scene.shape.Circle;
+
+
+
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,7 +26,7 @@ public class TestShapes {
 
         ArrayList<Shape> shapes = new ArrayList<>();
         shapes.add(rectangle);
-        //shapes.add(circle);
+        shapes.add(circle);
        // shapes.add(square);
 
 
