@@ -3,9 +3,6 @@ import javafx.scene.shape.Shape;
 import javafx.scene.shape.Circle;
 
 
-
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -24,20 +21,17 @@ public class TestShapes {
         Rectangle rectangle = new Rectangle(5.5, 6);
         Square square = new Square(2.5);
 
-        ArrayList<Shape> shapes = new ArrayList<>();
-        shapes.add(rectangle);
-        shapes.add(circle);
-       // shapes.add(square);
+        // ArrayList<Shape> shapes = new ArrayList<>(Arrays.asList(circle,rectangle));
+        //shapes.add(square);
 
+//        for (Shape s : shapes) {
+//            System.out.println(s);
+//        }
 
-       for (Object s : shapes) {
-           System.out.println(s);
-           System.out.println("Area of the " + s.getClass().getSimpleName());   }
-
-
-
-
-
+        Object[] shapes = {square,rectangle,circle};
+        for (Object s : shapes) {
+            System.out.println(s);
+        }
 
 
 
